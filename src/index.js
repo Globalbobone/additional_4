@@ -1,3 +1,5 @@
-module.exports = function multiply(first, second) {
-  // your solution
-}
+function multiply(first, second) {
+  var i = (+first * +second); 
+  return i.toString(); 
+ }
+
